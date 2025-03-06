@@ -3,10 +3,10 @@ import { FaHome, FaChartBar, FaCog } from "react-icons/fa";
 
 export default function Sidebar() {
   return (
-    <div className="w-64 h-screen bg-gray-900 text-white p-4 flex flex-col">
+    <div className="w-64 h-screen  p-4 flex flex-col">
       <h1 className="text-xl font-bold mb-6">Personal</h1>
-      <ul className="flex-1 space-y-4">
-        <li className="flex items-center gap-2 p-2 bg-gray-800 rounded-lg">
+      <ul className="flex-1 space-y-4 text-sm">
+        <li className="flex items-center gap-2 p-2 bg-neutral-800 rounded-lg">
           <FaHome /> APIs
         </li>
         <li className="flex items-center gap-2 p-2 hover:bg-gray-700 rounded-lg">

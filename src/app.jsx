@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <div className="flex h-screen">
+      <div className="flex h-screen bg-[#0c0a09] dark:text-white">
       <Sidebar />
       <Dashboard/>
     </div>
