@@ -1,6 +1,7 @@
 import React from 'react'
+import { FaHome, FaChartBar, FaCog } from "react-icons/fa";
 
-export default function sidebar() {
+export default function Sidebar() {
   return (
     <div className="w-64 h-screen bg-gray-900 text-white p-4 flex flex-col">
       <h1 className="text-xl font-bold mb-6">Personal</h1>

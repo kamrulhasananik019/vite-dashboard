@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function dashboard() {
+export default function Dashboard() {
   return (
     <div className="flex-1 p-6 bg-gray-950 text-white">
     <div className="flex justify-between items-center">
