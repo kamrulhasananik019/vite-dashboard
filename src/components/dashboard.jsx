@@ -6,7 +6,7 @@ import { IoMenu } from 'react-icons/io5'
 
 export default function Dashboard() {
   return (
-    <div className="w-full  bg-[#060504]">
+    <div className="w-full h-full flex flex-col  bg-black">
       <div className='block md:hidden' >
         <div className='flex justify-between items-center px-4 py-5'>
           <div className='flex items-center gap-4'>
@@ -23,7 +23,7 @@ export default function Dashboard() {
           </div>
         </div>
       </div>
-      <div className='h-full  bg-black border-gray-800 border-l border-t md:rounded-tl-xl mt-2'>
+      <div className='flex-1 bg-black border-gray-800 border-l border-t md:rounded-tl-xl mt-2'>
         <div className="flex justify-between items-center border-gray-700 border-b px-4 py-4">
           <div>
             <h2 className=" flex items-center gap-3 text-gray-500 ">
